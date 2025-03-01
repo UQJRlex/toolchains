@@ -3,7 +3,7 @@ forked from android-msm-bonito-4.9-android12L
 
 size:2.7G
 
-#### list
+### list
 
 1. default.xml
 
@@ -31,12 +31,13 @@ size:2.7G
 
 ---
 
-#### build.sh
-1. // set fixed path
+### build.sh
+
+1. set fixed path
 
 `TOOLS=$(realpath ../)`  
 
-2. // export aosp toolchains path
+2. export aosp toolchains path
 
 ```
 export PATH="${TOOLS}/toolchains/clang/host/linux-x86/clang-r416183b/bin:$PATH"
