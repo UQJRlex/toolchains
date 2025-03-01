@@ -37,14 +37,14 @@ https://android.googlesource.com/platform/prebuilts/gas/linux-x86/+/refs/tags/an
 #### export aosp toolchains path
 
 `
-    export PATH="${TOOLS}/toolchains/clang/host/linux-x86/clang-r416183b/bin:$PATH"  
-    export PATH="${TOOLS}/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:$PATH"  
-    export PATH="${TOOLS}/toolchains/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:$PATH"  
-    export PATH="${TOOLS}/toolchains/gas/linux-x86:$PATH"  
-    export PATH="${TOOLS}/toolchains/misc/linux-x86/lz4:$PATH"  
-    export PATH="${TOOLS}/toolchains/misc/linux-x86/dtc:$PATH"  
-    export PATH="${TOOLS}/toolchains/misc/linux-x86/libufdt:$PATH"  
-    export PATH="${TOOLS}/toolchains/build-tools/linux-x86/bin:$PATH"  
-    export PATH="${TOOLS}/toolchains/build-tools/path/linux-x86:$PATH"  
-    export LD_LIBRARY_PATH="${TOOLS}/toolchains/clang/host/linux-x86/clang-r416183b/lib64:$LD_LIBRARY_PATH"  
-` 
+export PATH="${TOOLS}/toolchains/clang/host/linux-x86/clang-r416183b/bin:$PATH"
+export PATH="${TOOLS}/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:$PATH"
+export PATH="${TOOLS}/toolchains/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:$PATH"
+export PATH="${TOOLS}/toolchains/gas/linux-x86:$PATH"
+export PATH="${TOOLS}/toolchains/misc/linux-x86/lz4:$PATH"
+export PATH="${TOOLS}/toolchains/misc/linux-x86/dtc:$PATH"
+export PATH="${TOOLS}/toolchains/misc/linux-x86/libufdt:$PATH"
+export PATH="${TOOLS}/toolchains/build-tools/linux-x86/bin:$PATH"
+export PATH="${TOOLS}/toolchains/build-tools/path/linux-x86:$PATH"
+export LD_LIBRARY_PATH="${TOOLS}/toolchains/clang/host/linux-x86/clang-r416183b/lib64:$LD_LIBRARY_PATH"
+`
