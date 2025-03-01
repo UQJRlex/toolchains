@@ -1,0 +1,9 @@
+clang/host/linux-x86/clang-r416183b/lib64/libclang.so.12git filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/bin/lld filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/lib64/libLLVM-12git.so filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/lib64/libLTO.so.12git filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/lib64/libclang_cxx.so.12git filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/bin/clang-12 filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/bin/clang-check filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/lib64/LLVMgold.so filter=lfs diff=lfs merge=lfs -text
+clang/host/linux-x86/clang-r416183b/lib64/liblldb.so.12.0.5git filter=lfs diff=lfs merge=lfs -text
