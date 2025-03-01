@@ -28,10 +28,11 @@ size:2.7G
     https://android.googlesource.com/platform/prebuilts/gas/linux-x86/+/refs/tags/android-12.1.0_r0.40/linux-x86-b2a189331333e014bfef4c0425b3ef4b74accdd0.tar.gz
 
 
+
 # build.sh
-  # set fixed path
+  1. set fixed path
   TOOLS=$(realpath ../)
-  # export aosp toolchains path
+  2. export aosp toolchains path
   export PATH="${TOOLS}/toolchains/clang/host/linux-x86/clang-r416183b/bin:$PATH" 
   export PATH="${TOOLS}/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:$PATH"
   export PATH="${TOOLS}/toolchains/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:$PATH"
