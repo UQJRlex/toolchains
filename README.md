@@ -35,9 +35,13 @@ size:2.7G
 
 1. set fixed path
 
-`TOOLS=$(realpath ../)`  
+
+```
+TOOLS=$(realpath ../)
+```
 
 2. export aosp toolchains path
+
 
 ```
 export PATH="${TOOLS}/toolchains/clang/host/linux-x86/clang-r416183b/bin:$PATH"
